@@ -18,7 +18,7 @@ from wiki_content import get_wiki
 global embeddings_flag
 embeddings_flag = False
 
-st.markdown("<h1 style='text-align: center; color: Red;'>Chat-Wiki</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: Red;'>My-Chat-Wiki</h1>", unsafe_allow_html=True)
 
 buff, col, buff2 = st.columns([1,3,1])
 openai_key = col.text_input('OpenAI Key:')
