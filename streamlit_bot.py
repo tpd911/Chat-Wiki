@@ -113,4 +113,5 @@ if len(openai_key):
             except:
                 st.write("something's Wrong... please try again")
             
-
+st.text('Querying a Wikipedia page with Langchain and Streamlit - https://medium.com/@shashankvats/building-a-wikipedia-search-engine-with-langchain-and-streamlit-d63cb11181d0')
+st.text('Buggy, it does not let you chat, after first output')
